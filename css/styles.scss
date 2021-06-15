@@ -1,0 +1,23 @@
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  background-color: rgb(241, 241, 241);
+}
+
+#map {
+  width: 600px;
+  height: 400px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #222;
+}
+
+button {
+  background-color: chocolate;
+  padding: 0.25em 0.75em;
+  margin: 1em 0.5em;
+  cursor: pointer;
+  user-select: none;
+}

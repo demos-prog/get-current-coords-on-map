@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  background-color: #f1f1f1;
+}
+
+#map {
+  width: 600px;
+  height: 400px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 5px #222;
+          box-shadow: 0 0 5px #222;
+}
+
+button {
+  background-color: chocolate;
+  padding: 0.25em 0.75em;
+  margin: 1em 0.5em;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=styles.css.map */
